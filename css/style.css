@@ -44,54 +44,87 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+  background: #f0efef;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-/* Center the container */
 #container {
-  width: 960px;
-  margin: auto;
+  width: 1200px;
+  border: solid black thin;
 }
 
 header {
+  width: 1198px;
+  padding: 5px;
   background: #033048;
+}
+
+.headerTitle {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 42px;
+  font-weight: 800;
   color: #ffffff;
-  border: solid red;
 }
 
 .firstNav {
-  text-align: right;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+.topNav {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .headerNav {
-  display: inline;
+  padding: 20px;
   color: #f9e42e;
+  text-decoration: none;
 }
 
 section {
   width: 700px;
   float: left;
-  border: 70px;
-  border: solid yellow;
+  margin-top: 40px;
+  margin-left: 100px;
+  border: solid red;
+}
+
+
+.articleTitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.bodyText {
+  font-size: 24px;
+  font-weight: 300;
 }
 
 aside {
   width: 240px;
   float: right;
-  border: solid blue;
+  margin-top: 40px;
+  margin-right: 100px;
+  border: solid red;
 }
 
 .secondNav {
   color: #033048;
   font-size: 32px;
+  font-weight: 800;
+  padding: 5px;
 }
 
 .siderbarNav {
@@ -99,9 +132,14 @@ aside {
   font-size: 24px;
 }
 
+#sideNav {
+  margin-top: 30px;
+}
+
 .sidebarTitle {
   color: #033048;
   font-size: 32px;
+  font-weight: 800;
 }
 
 .sidebarText {
@@ -112,26 +150,48 @@ aside {
 .link {
   color: #033048;
   font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.articleTitle {
-  font-size: 40px;
-}
-
-.bodyText {
-  font-size: 24px;
-}
-
-div {
+#button {
   clear: both;
-  border: solid green;
+  background: #f9e42e;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background:#033048;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px
 }
 
 footer {
   clear: both;
-  border: solid black;
+  background: #121212;
+  text-align: center;
+  padding: 30px;
 }
 
+.footerImg {
+  padding: 30px;
+}
+
+#footerText {
+  color: #f9e42e;
+  padding: 10px;
+}
+
+#footerText2 {
+  color: #ffffff;
+  padding: 10px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
