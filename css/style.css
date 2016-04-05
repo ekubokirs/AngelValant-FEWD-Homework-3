@@ -108,6 +108,7 @@ p.introduction:first-letter {
 links for the paragraphs but couldn't figure out how to
 do this in a different way. Any suggestions for condensing code?
 */
+/*Because .link1 is a child of .linkAlign, you can use .linkAlign for all of the styles.  Box model issues dont inherit but styles like those do*/
 .linkAlign {
   text-align: right;
 }
@@ -205,7 +206,7 @@ footer {
   text-align: center;
   padding: 30px;
 }
-
+/*Because these classes are the same, you can just repeat the same one twice, once on each class*/
 .footerImg1 {
   display: inline-block;
   padding: 20px;
@@ -234,6 +235,7 @@ footer {
 /* Below is my attempt as making the webpage responsive
 */
 
+/*Your facebok and twitter icons disappear on the mobile view but other than that, it looks AWESOME!*/
 @media only screen and (max-width: 500px) {
 
   #container {
